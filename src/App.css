@@ -1,0 +1,18 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card{
+  height: 60vh;
+  transition: 0.5s ease
+}
+.card:hover{
+  transform: translateY(-0.4rem);
+}
+
+.payment{
+  height: calc(100vh - 5rem);
+}
